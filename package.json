@@ -1,0 +1,32 @@
+{
+  "name": "goofyn-dashboard",
+  "version": "0.0.1",
+  "description": "A web dashboard for goofyn discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/assets/css/input.css -o ./src/assets/css/tailwind.css",
+    "clean": "rm ./src/assets/css/tailwind.css || del .\\src\\assets\\css\\tailwind.css",
+    "dev": "npx tailwindcss -i ./src/assets/css/input.css -o ./src/assets/css/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpdjf/goofyn-dashboard.git"
+  },
+  "keywords": [
+    "goofyn",
+    "dashboard",
+    "web",
+    "webapp"
+  ],
+  "author": "RPDJF",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rpdjf/goofyn-dashboard/issues"
+  },
+  "homepage": "https://github.com/rpdjf/goofyn-dashboard#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4",
+    "tailwindcss-animated": "^1.1.2"
+  }
+}
